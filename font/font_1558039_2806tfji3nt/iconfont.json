@@ -1,0 +1,93 @@
+{
+  "id": "1558039",
+  "name": "1908",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "602142",
+      "name": "盾牌正",
+      "font_class": "dunpaizheng",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "679000",
+      "name": "正方体",
+      "font_class": "zhengfangti",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "3065792",
+      "name": "闪电",
+      "font_class": "shandian",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "6550871",
+      "name": "爱心",
+      "font_class": "shoucang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12586892",
+      "name": "正方体",
+      "font_class": "zhengfangti1",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "9243339",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e758",
+      "unicode_decimal": 59224
+    },
+    {
+      "icon_id": "10389620",
+      "name": "小程序",
+      "font_class": "xiaochengxu",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "11098468",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "11644955",
+      "name": "在线客服",
+      "font_class": "zaixiankefu",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "12084948",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "13030997",
+      "name": "搜索 (1)",
+      "font_class": "sousuo",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "7038052",
+      "name": "vivo",
+      "font_class": "vivo",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
