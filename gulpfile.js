@@ -58,8 +58,8 @@ const htmlHandler = () => {
 
 // 5. 书写一个移动 image 文件的方法
 const imgHandler = () => {
-  return gulp.src('./src/images/**') // images 文件夹下的所有文件
-             .pipe(gulp.dest('./dist/images')) // 放到指定目录就可以了
+  return gulp.src('./src/img/**') // images 文件夹下的所有文件
+             .pipe(gulp.dest('./dist/img')) // 放到指定目录就可以了
 }
 
 // 6. 书写一个移动 lib 文件的方法
@@ -76,10 +76,10 @@ const delHandler = () => {
 
 // 8. 书写一个配置服务器的任务
 const serverHandler = () => {
-  return gulp.src('./dist') // 找到我要打开的页面的文件夹, 把这个文件夹当作网站根目录
+  return gulp.src('./dist')  
              .pipe(webserver({ // 需要一些配置项
-               host: 'www.guoxiang.com', // 域名, 这个域名可以自定义
-               port: 8080, // 端口号, 0 ~ 65535, 尽量不适用 0 ~ 1023
+               host: 'www.longzhaoxing.com', // 域名, 这个域名可以自定义
+               port: 8080, // 
                open: './pages/index.html', // 你默认打开的首页, 从 dist 下面的目录开始书写
                livereload: true, // 自动刷新浏览器 - 热重启
                // 所有的代理配置都在 proxies 里面
@@ -104,12 +104,12 @@ const serverHandler = () => {
 //    监控 src 下下面的文件, 只要一修改, 就执行对应的任务
 //    比如 src 下面的 css 文件夹, 只要里面的文件以修改, 我就执行以下 cssHandler 这个任务
 const watchHandler = () => {
-  // 监控着 src 下的 css 下的所有 .css 文件, 只要一发生变化, 就会自动执行一遍 cssHandler 任务
+  
   gulp.watch('./src/css/*.css', cssHandler)
   gulp.watch('./src/js/*.js', jsHandler)
   gulp.watch('./src/pages/*.html', htmlHandler)
   gulp.watch('./src/lib/**', libHandler)
-  gulp.watch('./src/images/**', imgHandler)
+  gulp.watch('./src/img/**', imgHandler)
   
 }
 

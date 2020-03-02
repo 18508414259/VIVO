@@ -20,6 +20,60 @@ window.onload=function(){
 
     })
  
+    $(".listJQ").mouseover(function(){
+        $(this)
+        .finish()
+        .show()
+    })
+    $(".listJQ").mouseleave(function(){
+        $(this)
+        .finish()
+        .slideUp()
+    })
+
 
 }
+
+// window.onload=function(){
+//     $("banUL > li").mouseover(function(){
+//         $(this)
+//         .children("div")
+//         .finish()
+//         .show()
+//     })
+
+// }
+
+
+$(function(){
+    $('.banUL li').mouseover(function(){
+        $(this)
+        .children($('div'))
+        .stop()
+        .show()
+        .parent()
+        .siblings()
+        .find($('div'))
+        .stop()
+        .hide()
+    })
+    $('.banUL li').mouseleave(function(){
+        $(this)
+        .find($('div'))
+        .stop()
+        .hide()
+        .parent()
+        .siblings()
+        .find($('div'))
+        .stop()
+        .show()
+    })
+    $('.banUL').mouseleave(function(){
+        $(this)
+        
+        .find($('div'))
+        .finish()
+        .hide()
+    })
+})
    

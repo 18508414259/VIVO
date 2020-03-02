@@ -4,9 +4,7 @@
     list-style: none;
     text-decoration: none;
 }
-body{
-   
-}
+
 .box{
     height: 32px;
     background-color:#333333;
@@ -133,13 +131,18 @@ body{
 /* jquery*/
 .list .listJQ{
     position: absolute;
-    left: -126px;
+    left: -280px;
     top: 68px;
     height: 250px;
-    width: 1200px;
-    background-color: red;
-    
+    width: 1520px;
+    background-color:white;
+    z-index: 99999;
     display: none;
+}
+.listJQ ul {
+    margin: auto;
+    width: 1200px;
+    height: 250px;
 }
 .listJQ li{
     margin-top: 30px;
@@ -174,6 +177,463 @@ body{
     height: 524px;
     background-color: skyblue;
 }
+
+.swiper-container {
+    width: 1520px;
+    height: 524px;
+} 
+.swiper img{
+    height: 524px;
+    width: 1520px;
+}
+
+.banner{
+    position: absolute;
+    height: 482px;
+    width: 1200px;
+    
+    z-index: 99;
+    left: 158px;
+    top: 120px;
+    
+}
+.banner .banUL{
+    height: 477px;
+    width: 200px;
+    background-color: rgb(132, 132, 132,0.3);
+    padding-top: 5px;
+    
+}
+
+.banUL li {
+    
+    width: 100%;
+   
+}
+.banUL >li > a{
+    position: relative;
+    display: block;
+    padding: 0 48px 0 42px;
+    color: #333;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 68px;
+}
+.banUL >li>a >span{
+    position: absolute;
+    right: 28px;
+   
+}
+.banUL > li :hover{
+   
+    background-color: white;
+}
+
+.banBox{
+    position: absolute;
+    height: 482px;
+    width: 760px;
+    left: 208px;
+    top: 0px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: none;
+}
+.banBox > p{
+    height: 58px;
+    line-height: 58px;
+    
+}
+.banBox > p a{
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    color: black;
+}
+ .banBox_index .ban1UL1{
+    height: 140px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #ccc;
+}
+ .banBox_index .ban1UL1 li{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.banBox_index .ban1UL2{
+    height: 250px;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ .banBox_index .ban1UL2 > li{
+    font-size: 14px;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+/* .ban1_box{
+    display: none;
+} */
+.banBox1{
+    position: absolute;
+    height: 482px;
+    width: 760px;
+    left: 208px;
+    top: 0px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: none;
+}
+.banBox1 > p{
+    height: 58px;
+    line-height: 58px;
+   
+}
+.banBox1 > p a{
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    color: black;
+}
+ .banBox_index1 .ban1UL1{
+    height: 140px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #ccc;
+}
+ .banBox_index1 .ban1UL1 li{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.banBox_index1 .ban1UL2{
+    height: 250px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ .banBox_index1 .ban1UL2 > li{
+    font-size: 12px;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+/*------*/
+.banBox2{
+    position: absolute;
+    height: 482px;
+    width: 760px;
+    left: 208px;
+    top: 0px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: none;
+}
+.banBox2 > p{
+    height: 58px;
+    line-height: 58px;
+   
+}
+.banBox2 > p a{
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    color: black;
+}
+ .banBox_index2 .ban1UL1{
+    height: 140px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #ccc;
+}
+ .banBox_index2 .ban1UL1 li{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.banBox_index2 .ban1UL2{
+    height: 250px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ .banBox_index2 .ban1UL2 > li{
+    font-size: 12px;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+/**/
+.banBox3{
+    position: absolute;
+    height: 482px;
+    width: 760px;
+    left: 208px;
+    top: 0px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: none;
+}
+.banBox3 > p{
+    height: 58px;
+    line-height: 58px;
+   
+}
+.banBox3 > p a{
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    color: black;
+}
+ .banBox_index3 .ban1UL1{
+    height: 140px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #ccc;
+}
+ .banBox_index3 .ban1UL1 li{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.banBox_index3 .ban1UL2{
+    height: 250px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ .banBox_index3 .ban1UL2 > li{
+    font-size: 12px;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+/**/
+.banBox4{
+    position: absolute;
+    height: 482px;
+    width: 760px;
+    left: 208px;
+    top: 0px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: none;
+}
+.banBox4 > p{
+    height: 58px;
+    line-height: 58px;
+   
+}
+.banBox4 > p a{
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    color: black;
+}
+ .banBox_index4 .ban1UL1{
+    height: 140px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #ccc;
+}
+ .banBox_index4 .ban1UL1 li{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.banBox_index4 .ban1UL2{
+    height: 250px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ .banBox_index4 .ban1UL2 > li{
+    font-size: 12px;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+/**/
+.banBox5{
+    position: absolute;
+    height: 482px;
+    width: 760px;
+    left: 208px;
+    top: 0px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: none;
+}
+.banBox5 > p{
+    height: 58px;
+    line-height: 58px;
+   
+}
+.banBox5 > p a{
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    color: black;
+}
+ .banBox_index5 .ban1UL1{
+    height: 140px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #ccc;
+}
+ .banBox_index5 .ban1UL1 li{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.banBox_index5 .ban1UL2{
+    height: 250px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ .banBox_index5 .ban1UL2 > li{
+    font-size: 12px;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+/**/
+.banBox6{
+    position: absolute;
+    height: 482px;
+    width: 760px;
+    left: 208px;
+    top: 0px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: none;
+}
+.banBox6 > p{
+    height: 58px;
+    line-height: 58px;
+   
+}
+.banBox6 > p a{
+    position: absolute;
+    right: 50px;
+    top: 0px;
+    color: black;
+}
+ .banBox_index6 .ban1UL1{
+    height: 140px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #ccc;
+}
+ .banBox_index6 .ban1UL1 li{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.banBox_index6 .ban1UL2{
+    height: 250px;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ .banBox_index6 .ban1UL2 > li{
+    font-size: 12px;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
 
 .bigBox{
     background-color: rgb(247,247,245);

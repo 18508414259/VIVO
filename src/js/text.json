@@ -1,0 +1,80 @@
+[
+    {
+        "id":1,
+        "list":[
+            {
+                "id":11,
+                "name":"iQOO"
+            },
+            {
+                "id":12,
+                "name":"NEX系列"
+            },
+            {
+                "id":13,
+                "name":"X系列"
+            },
+            {
+                "id":14,
+                "name":"S系列"
+            },
+            {
+                "id":15,
+                "name":"Z系列"
+            },
+            {
+                "id":16,
+                "name":"Y系列"
+            },
+            {
+                "id":17,
+                "name":"U系列"
+            }
+        ]
+    },
+
+    {
+        "id":2,
+        "list":[
+            {
+                "id":21,
+                "name":"iQOO 3"  
+            },
+            {
+                "id":22,
+                "name":"iQOO Pro"  
+            },
+            {
+                "id":23,
+                "name":"vivo Z6"  
+            },
+            {
+                "id":24,
+                "name":"vivo X30 5G版"  
+            },
+            {
+                "id":25,
+                "name":"vivo X30 Pro 5G版"  
+            },
+            {
+                "id":26,
+                "name":"vivo Z5"  
+            },
+            {
+                "id":27,
+                "name":"vivo U3x"  
+            },
+            {
+                "id":28,
+                "name":"vivo Z5x"  
+            },
+            {
+                "id":29,
+                "name":"iQOO Neo 855竞速版"  
+            }
+          
+        ]
+    }
+
+
+]
