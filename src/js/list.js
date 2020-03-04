@@ -34,49 +34,31 @@ window.onload=function(){
 
 }
 
-// window.onload=function(){
-//     $("banUL > li").mouseover(function(){
-//         $(this)
-//         .children("div")
-//         .finish()
-//         .show()
-//     })
-
-// }
 
 
 $(function(){
-    $('.banUL li').mouseover(function(){
-        $(this)
-        .children($('div'))
-        .stop()
-        .show()
-        .parent()
-        .siblings()
-        .find($('div'))
-        .stop()
-        .hide()
-    })
-    $('.banUL li').mouseleave(function(){
-        $(this)
-        .find($('div'))
-        .stop()
-        .hide()
-        .parent()
-        .siblings()
-        .find($('div'))
-        .stop()
-        .show()
-    })
-    $('.banUL').mouseleave(function(){
-        $(this)
-        
-        .find($('div'))
-        .finish()
-        .hide()
+    $.ajax({
+        url:"../lib/list.json",
+        dataType:'json',
+        success:function(res){
+            // console.log(res)
+            var str='';
+            res.forEach(item=>{
+                str+=`
+                <li>
+                <img src="${ item.img }">
+                <h5>${item.name}</h4>
+                <p>${item.sale}</p>
+                <span>&yen;${item.pires}</span>
+                </li>
+                `
+            })
+            $('.Bul').html(str)
+        }
     })
 })
-//----------------
+
+
 $(function(){
     $('.RboxUL li').mouseover(function(){
         

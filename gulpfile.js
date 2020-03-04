@@ -78,7 +78,7 @@ const delHandler = () => {
 const serverHandler = () => {
   return gulp.src('./dist')  
              .pipe(webserver({ // 需要一些配置项
-               host: 'www.longzhaoxing.com', // 域名, 这个域名可以自定义
+               host: 'localhost', // 域名, 这个域名可以自定义
                port: 8080, // 
                open: './pages/index.html', // 你默认打开的首页, 从 dist 下面的目录开始书写
                livereload: true, // 自动刷新浏览器 - 热重启

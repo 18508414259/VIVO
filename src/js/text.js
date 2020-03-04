@@ -1,7 +1,7 @@
 getList()
 function getList(){
     $.ajax({
-        url:'../js/text.json',
+        url:'../lib/text.json',
         dataType:'json',
         success: function(res){
             console.log(res)
@@ -27,7 +27,7 @@ function getList(){
 getList1()
 function getList1(){
     $.ajax({
-        url:'../js/text1.json',
+        url:'../lib/text1.json',
         dataType:'json',
         success: function(res){
             console.log(res)
@@ -53,7 +53,7 @@ function getList1(){
 getList2()
 function getList2(){
     $.ajax({
-        url:'../js/text2.json',
+        url:'../lib/text2.json',
         dataType:'json',
         success: function(res){
             console.log(res)
@@ -79,7 +79,7 @@ function getList2(){
 getList3()
 function getList3(){
     $.ajax({
-        url:'../js/text3.json',
+        url:'../lib/text3.json',
         dataType:'json',
         success: function(res){
             console.log(res)
@@ -105,7 +105,7 @@ function getList3(){
 getList4()
 function getList4(){
     $.ajax({
-        url:'../js/text4.json',
+        url:'../lib/text4.json',
         dataType:'json',
         success: function(res){
             console.log(res)
@@ -131,7 +131,7 @@ function getList4(){
 getList5()
 function getList5(){
     $.ajax({
-        url:'../js/text5.json',
+        url:'../lib/text5.json',
         dataType:'json',
         success: function(res){
             console.log(res)
@@ -157,7 +157,7 @@ function getList5(){
 getList6()
 function getList6(){
     $.ajax({
-        url:'../js/text6.json',
+        url:'../lib/text6.json',
         dataType:'json',
         success: function(res){
             console.log(res)

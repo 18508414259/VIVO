@@ -1,0 +1,86 @@
+[
+    {
+        "id":1,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/22/10001922_1582525194561_750x750.png.webp",
+        "name":"iQOO 3 5G版 8GB+128GB 驭影黑",
+        "sale":"【①限时赠半年碎屏宝；②享12期免息；③赠100元配件优惠券】",
+        "pires":3798.00
+    },
+    {
+        "id":2,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/22/10001922_1582525234498_750x750.png.webp",
+        "name":"iQOO 3 5G版 12GB+256GB 驭影黑",
+        "sale":"【①限时赠半年碎屏宝；②享12期免息；③赠100元配件优惠券】",
+        "pires":4398.00 
+    },
+    {
+        "id":3,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/22/10001922_1582525229079_750x750.png.webp",
+        "name":"iQOO 3 5G版 12GB+128GB 流光银",
+        "sale":"【①限时赠半年碎屏宝；②享12期免息；③赠100元配件优惠券】",
+        "pires":3998.00 
+    },
+    {
+        "id":4,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/99/10001399_1578644842716_750x750.png.webp",
+        "name":"iQOO Pro 5G版 8GB+128GB 幻影蓝",
+        "sale":"【赠半年碎屏宝，享6期免息】5G全网通，骁龙855 Plus，44W超快闪充】",
+        "pires":3198.00 
+    },
+    {
+        "id":5,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/99/10001399_1578644672598_750x750.png.webp",
+        "name":"iQOO Pro 5G版 8GB+256GB 幻影蓝",
+        "sale":"【限时下单减400，赠半年碎屏宝，享6期免息】",
+        "pires":3698.00 
+    },
+    {
+        "id":6,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/99/10001399_1566458670764_750x750.png.webp",
+        "name":"iQOO Pro 12GB+128GB 竞速黑",
+        "sale":"【限时下单减100，赠半年碎屏宝，享6期免息】",
+        "pires":2998.00 
+    },
+    {
+        "id":7,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/99/10001399_1566458712423_750x750.png.webp",
+        "name":"iQOO Pro 5G版 12GB+128GB 竞速黑",
+        "sale":"【限时下单减200，赠半年碎屏宝，享6期免息】",
+        "pires":3498.00 
+    },
+    {
+        "id":8,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/47/10001947_1582773003349_750x750.png.webp",
+        "name":"vivo Z6 5G版 6GB+128GB 星际银",
+        "sale":"【提前预定享：①下单减100，到手价2198；②12期免息；③赠XE900耳机。3月8日10点开售】",
+        "pires":2298.00 
+    },
+    {
+        "id":9,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/47/10001947_1582166773219_750x750.png.webp",
+        "name":"vivo Z6 5G版 6GB+128GB 冰川纪",
+        "sale":"【提前预定享：①下单减100，到手价2198；②12期免息；③赠XE900耳机。3月8日10点开售】",
+        "pires":2298.00 
+    },
+    {
+        "id":10,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/47/10001947_1582773058027_750x750.png.webp",
+        "name":"vivo Z6 5G版 8GB+128GB 星际银",
+        "sale":"【提前预定享：①12期免息；②赠XE900耳机。3月8日10点开售】",
+        "pires":2598.00 
+    },
+    {
+        "id":11,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/47/10001947_1582773031962_750x750.png.webp",
+        "name":"vivo Z6 5G版 8GB+128GB 极影黑",
+        "sale":"【提前预定享：①12期免息；②赠XE900耳机。3月8日10点开售】",
+        "pires":2598.00 
+    },
+    {
+        "id":12,
+        "img":"https://shopstatic.vivo.com.cn/vivoshop/commodity/12/10001812_1578642095086_750x750.png.webp",
+        "name":"vivo X30 5G版 8GB+256GB 曜石",
+        "sale":"【享12期免息，赠W7蓝牙耳机】",
+        "pires":3598.00 
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "id":1,
+        "list":[
+            {
+                "id":11,
+                "name":"有限耳机"
+            },
+            {
+                "id":12,
+                "name":"蓝牙耳机"
+            },
+            {
+                "id":13,
+                "name":"音响"
+            },
+            {
+                "id":14,
+                "name":"麦克风"
+            }
+        ]
+    },
+    
+    {
+        "id":2,
+        "list":[
+            {
+                "id":21,
+                "name":"vivo TWS Earphone 真无"  
+            },
+            {
+                "id":22,
+                "name":"vivo XE160原装耳机"  
+            },
+            {
+                "id":23,
+                "name":"vivo XE100原装耳机"  
+            },
+            {
+                "id":24,
+                "name":"击音 听键DJ 蓝牙接收器"  
+            },
+            {
+                "id":25,
+                "name":"iQOO 原装入耳式耳机"  
+            },
+            {
+                "id":26,
+                "name":"vivo XE710原装耳机"  
+            },
+            {
+                "id":27,
+                "name":"vivo XE600i 原装耳机"  
+            },
+            {
+                "id":28,
+                "name":"蔚乐 棒棒糖音箱"  
+            },
+            {
+                "id":29,
+                "name":"vivo XE680原装耳机"  
+            },
+            {
+                "id":30,
+                "name":"zack mini便携蓝牙小音箱"  
+            },
+            {
+                "id":31,
+                "name":"vivo XE800 Hi-Fi耳机"  
+            },
+            {
+                "id":32,
+                "name":"vivo XE800 Hi-Fi耳机"  
+            }
+          
+        ]
+    }
+
+
+]

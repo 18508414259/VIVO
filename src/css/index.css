@@ -987,3 +987,73 @@
     display: flex;
     cursor: pointer;
 }
+
+.Rbox{
+    height: 150px;
+    width: 50px;
+    background-color:white;
+    position: fixed;
+    
+    right: 0px;
+    bottom: 100px;
+    z-index: 9999999999999;
+}
+.Rbox li{
+    line-height: 50px;
+    text-align: center;
+}
+
+.Rbox li a{
+    font-size: 24px;
+    color: black;
+    position: relative;
+}
+.Rbox li a:hover{
+    color: red;
+}
+.RULb1{
+    position: absolute;
+    height: 50px;
+    width: 135px;
+    background-color:white;
+    right: 60px;
+    bottom: 100px;
+    display: none;
+}
+.RULb2{
+    position: absolute;
+    height: 50px;
+    width: 135px;
+    background-color:white;
+    right: 60px;
+    bottom: 50px;
+    display: none;
+}
+.RULb3{
+    position: absolute;
+    height: 50px;
+    width: 135px;
+    background-color:white;
+    right: 60px;
+    bottom: 0px;
+    /* display: none; */
+}
+.Rtop{
+    background-color: white;
+    cursor: pointer;
+}
+.Rtop span{
+    font-size: 24px;
+    color: black;
+}
+.RULb4{
+    position: absolute;
+    height: 50px;
+    width: 135px;
+    background-color:white;
+    right: 60px;
+    bottom: -50px;
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
