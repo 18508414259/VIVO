@@ -116,3 +116,10 @@ function dianji(){
         },500)
     })
 }
+
+
+$(function(){
+    $('.content2').on('click','li',function(){
+        window.location.href='./list.html'
+    })
+})

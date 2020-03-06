@@ -1,0 +1,1 @@
+"use strict";window.onload=function(){$(".listUl").mouseover(function(){$(this).next().finish().slideDown(500)}),$(".listUl").mouseleave(function(){$(this).stop(1e3).next().finish().slideUp(500)}),$(".listJQ").mouseover(function(){$(this).finish().show()}),$(".listJQ").mouseleave(function(){$(this).finish().slideUp()})};

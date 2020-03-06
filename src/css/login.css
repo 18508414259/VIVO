@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #dae1fe;
+}
+
+.logoBOX{
+    width: 1200px;
+    height: 780px;
+    margin: auto;
+    /* background-color: red; */
+    background: url("../img/logo1.jpg") no-repeat;
+    position: relative;
+}
+.logoBOX .logo{
+    position: absolute;
+    top: 74px;
+    right: 0;
+    width: 420px;
+    height: 674px;
+    padding: 30px 30px 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.logo .logoTOP{
+    margin-bottom: 20px;
+    height: 60px;
+    width: 100%;
+    /* background-color: pink; */
+    text-align: center;
+}
+.logo .logoTOP img{
+    height: 60px;
+    width: 164px;
+}
+.logo .logoP1{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+}
+.logo .logoP2{
+    font-size: 14px;
+    text-align: right;
+    color: #456fff;
+    margin-top: 20px;
+}
+.inptBOX{
+    height: 120px;
+    width: 360px;
+    /* background-color: skyblue; */
+}
+.inptBOX .inptTOP{
+    margin-top: 15px;
+    width: 358px;
+    height: 48px;
+    border: 1px solid #dedfe0;
+}
+.inptTOP .phone{
+    float: left;
+    position: relative;
+    width: 74px;
+}
+.inptTOP .phone span{
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 12px;
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+    cursor: pointer;
+}
+.INP1{
+    width: 262px;
+    height: 47px;
+    float: left;
+    padding-left: 20px;
+    border: 1px solid #dedfe0;
+}
+.inptBOT{
+    margin-top: 15px;
+    width: 358px;
+    height: 48px;
+    border: 1px solid #dedfe0;
+}
+.inptBOT .INP2{
+    height: 47px;
+    width: 336px;
+    padding-left: 20px;
+    border: 1px solid #dedfe0;
+}
+.btn1{
+    display: block;
+    width: 360px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #456fff;
+    border: 1px solid #456fff;
+}
+.btn2{
+    background-color: white;
+    width: 360px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #456fff;
+    color: #456fff;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer
+    
+}
+.btn2:hover{
+    background-color: #d4dffa;
+}
+.logo .logoP3{
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.logo .logoP3:hover{
+    color: #456fff;
+}
+.logo .logoP4{
+  
+    margin-top: 30px;
+    color: #999;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid #999;
+}
+.logolast{
+    /* text-align: center; */
+    
+    margin-top: 15px;
+    /* font-size: 16px; */
+    display: flex;
+    justify-content: center;
+}
+.logolast li{
+    margin: 0px 20px;
+    font-size: 30px;
+    color: #456fff;
+}
+
+
+.foot{
+    height: 54px;
+    width: 860px;
+    /* background-color: skyblue; */
+    margin: auto;
+    margin-top: 100px;
+}
+.footTop{
+    text-align: center;
+}
+.footTop span{
+    
+    margin-right: 20px;
+    font-size: 12px;
+}
+.footBut{
+    text-align: center;
+    margin-top: 5px;
+}
+.footBut span{
+    font-size: 12px;
+    /* color: #cccccc; */
+}

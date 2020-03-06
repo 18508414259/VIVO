@@ -207,13 +207,80 @@ body{
 }
 .detBOX .mir{
     /* position: absolute; */
-    height: 652px;
+    height: 500px;
     width: 515px;
-    background-color: skyblue;
+    position: relative;
+    /* background-color: skyblue; */
     left: 220px;
     top: 170px;
+    padding: 40px;
+    box-sizing: border-box;
     position: fixed;
 }
+.mir .middleImg{
+    width: 350px;
+    height: 350px;
+    /* border: 1px solid red; */
+    padding: 5px;
+    position: relative;
+}
+
+.mir .middleImg img{
+    width: 350px;
+    height: 350px;
+}
+.mir .middleArea{
+    width: 100px;
+    height: 100px;
+    background: rgba(100, 222, 200, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.mir .small{
+    /* background-color: red; */
+    width: 360px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.small li,
+.small li img {
+     width: 60px;
+     height: 60px;
+}
+
+.small li {
+    float: left;
+    /* border: 1px solid #ccc; */
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.mir .bigArea {
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.mir .bigArea img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+    height: 800px;
+}
+
+
+
+
 
 .detBOX .detRIT{
     width: 510px;
